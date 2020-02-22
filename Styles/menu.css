@@ -1,0 +1,24 @@
+.menu-button{
+    background-color: lightblue;
+    text-align: center;
+    font-weight:bold;
+    font-size: large;
+    width: 200px;
+    height: 50px;
+    float:left;
+    padding-top:25px;
+}
+
+.heading{
+    text-align:center;
+    background-color: lightsalmon;
+}
+
+.menu-content{
+    background-color:lightgreen;
+    width: 800px;
+    height: 100px;
+    font-weight : bold;
+    color:red;
+    text-align:center;
+}
