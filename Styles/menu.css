@@ -7,6 +7,7 @@
     height: 50px;
     float:left;
     padding-top:25px;
+    width:25%;
 }
 
 .heading{
@@ -21,6 +22,8 @@
     font-weight : bold;
     color:red;
     text-align:center;
+    display: block;
+    width:100%;
 }
 
 .menu-test{

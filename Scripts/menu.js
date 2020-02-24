@@ -56,6 +56,16 @@ function ChangeText(new_text)
     divGeneral.innerHTML = " " ;
     divGeneral.appendChild(divGeneralContent);
     divGeneral.className = "menu-content";
+    divGeneral.style.display = "block"; 
+    window.setTimeout("HideMenuContent();", 3000);
     document.body.appendChild(divGeneral);
 
+}
+
+function HideMenuContent()
+{
+    var x = document.getElementsByClassName("menu-content");
+    if(x[0].style.display == "block"){
+        x[0].style.display = "none";
+    }
 }
